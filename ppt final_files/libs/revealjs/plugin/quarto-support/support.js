@@ -281,6 +281,7 @@ window.QuartoSupport = function () {
     }
   }
 
+<<<<<<< HEAD
   // dispatch for htmlwidgets
   // they use slideenter event to trigger resize
   const fireSlideEnter = () => {
@@ -309,11 +310,39 @@ window.QuartoSupport = function () {
       distpatchShinyEvents(previousSlide, currentSlide);
     };
 
+=======
+  function handleSlideChanges(deck) {
+    // dispatch for htmlwidgets
+    const fireSlideEnter = () => {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    };
+
+    const fireSlideChanged = (previousSlide, currentSlide) => {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    };
+
+    // fire slideEnter for tabby tab activations (for htmlwidget resize behavior)
+    document.addEventListener("tabby", fireSlideEnter, false);
+
+>>>>>>> 5c2190d92f6c594dba79b000e6a018f7347751c4
     deck.on("slidechanged", function (event) {
       fireSlideChanged(event.previousSlide, event.currentSlide);
     });
   }
 
+<<<<<<< HEAD
   function handleTabbyChanges() {
     const fireTabChanged = (previousTab, currentTab) => {
       fireSlideEnter()
@@ -324,6 +353,8 @@ window.QuartoSupport = function () {
     }, false);
   }
 
+=======
+>>>>>>> 5c2190d92f6c594dba79b000e6a018f7347751c4
   function workaroundMermaidDistance(deck) {
     if (window.document.querySelector("pre.mermaid-js")) {
       const slideCount = deck.getTotalSlides();
@@ -403,7 +434,10 @@ window.QuartoSupport = function () {
       addFooter(deck);
       addChalkboardButtons(deck);
       handleTabbyClicks();
+<<<<<<< HEAD
       handleTabbyChanges();
+=======
+>>>>>>> 5c2190d92f6c594dba79b000e6a018f7347751c4
       handleSlideChanges(deck);
       workaroundMermaidDistance(deck);
       handleWhiteSpaceInColumns(deck);
