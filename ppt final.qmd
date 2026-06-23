@@ -1,5 +1,5 @@
 ---
-title: "Satisfaccion democratica en argentina"
+title: "Satisfacción democrática en Argentina 2023"
 author: "Antonia Cea y Eva Kennedy"
 format: revealjs
 editor: visual
