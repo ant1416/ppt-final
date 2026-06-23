@@ -5,9 +5,7 @@ format: revealjs
 editor: visual
 ---
 
-## 
-
-## introduccion
+## Introducción
 
 :::: {.columns}
 
@@ -29,17 +27,12 @@ Justificación:
 
 ::::
 
+## Pregunta e hipótesis
 
+## Datos y variables
 
+## Descripción de la muestra
 
+## Satisfacción con la democracia
 
-
-## pregunta e hipotesis
-
-## datos y variables
-
-## descripcion de la muestra
-
-## satisfaccion con la democrcia
-
-## sexo y satisfaccion con la democracia
+## Sexo y satisfacción con la democracia
