@@ -1,0 +1,8 @@
+---
+title: "Satisfaccion democratica en argentina"
+author: "Antonia Cea y Eva Kennedy"
+format: revealjs
+editor: visual
+---
+
+## 
