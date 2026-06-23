@@ -6,3 +6,11 @@ editor: visual
 ---
 
 ## 
+
+# introduccion
+
+# pregunta e hipotesis
+
+# datos y variables
+
+# descrip
