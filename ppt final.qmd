@@ -7,17 +7,39 @@ editor: visual
 
 ## 
 
-# introduccion
+## introduccion
 
-![](images/64f9c8b5b08a8_transicion-democraticaalta-01.png){width="495"}
+:::: {.columns}
+
+::: {.column width="40%"}
+Contexto
+:::
+-    Creciente polarización política en América Latina.
+
+-    Elección de Javier Milei en Argentina (2023).
+
+-    Cuestionamientos a las instituciones democráticas.
+::: {.column width="60%"}
+justificacion
+:::
+
+-    La satisfacción con la democracia permite evaluar la legitimidad percibida del sistema democrático.
+
+-    Analizar diferencias según edad, sexo y nivel educativo.
+
+-    Uso de datos del Latinobarómetro 2023 para el caso argentino.
+::::
 
 
-# pregunta e hipotesis
 
-# datos y variables
 
-# descripcion de la muestra
 
-# satisfaccion con la democrcia
+## pregunta e hipotesis
 
-# sexo y satisfaccion con la democracia
+## datos y variables
+
+## descripcion de la muestra
+
+## satisfaccion con la democrcia
+
+## sexo y satisfaccion con la democracia
